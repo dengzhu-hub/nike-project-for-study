@@ -1,8 +1,10 @@
 const Button = ({ label, imageUrl }) => {
   return (
-    <button className="bg-coral-red  btn text-white rounded-full border-coral-red">
+    <button className="bg-coral-red  outline-none btn text-white rounded-full border-coral-red">
       {label}
-      <img className="ml-2 rounded-full" src={imageUrl} alt="arrow right" />
+      {imageUrl && (
+        <img className="ml-2 rounded-full" src={imageUrl} alt="arrow right" />
+      )}
     </button>
   );
 };

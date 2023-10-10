@@ -7,7 +7,7 @@ const PopularProducts = () => {
         <h2 className="capitalize font-palanquin font-semibold text-4xl">
           our <span className="text-coral-red">popular</span> products
         </h2>
-        <p className="text-info font-Roboto text-slate-gray ">
+        <p className=" font-Roboto text-slate-gray ">
           Welcome to our shoe shop, where style meets comfort. Explore our
           diverse collection of shoes designed to suit every occasion. From
           casual sneakers to elegant heels, we have something for everyone. Find
@@ -17,10 +17,10 @@ const PopularProducts = () => {
       </div>
       <div
         className="grid  wide:grid-cols-5 mt-16 lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-14"
-        data-theme="garden"
+        
       >
         {products.map(product => (
-          <PopularProductsCard key={product.name} {...product}/>
+          <PopularProductsCard key={product.name} product={product}/>
         ))}
       </div>
     </section>
