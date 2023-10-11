@@ -1,5 +1,3 @@
-import React from "react";
-import { Button } from "@dengzhu-hub/ui-library";
 import { footerLogo } from "../assets/images";
 import { footerLinks, socialMedia } from "../constants";
 const Footer = () => {
