@@ -6,6 +6,7 @@ import {
   SuperQuantity,
   Subscribe,
   PopularProducts,
+  Service,
   Nav,
 } from "./sections";
 const App = () => (
@@ -21,12 +22,12 @@ const App = () => (
       <SuperQuantity />
     </section>
     <section className="py-10 padding-x">
-      <service />
+      <Service />
     </section>
-    <section className="padding bg-pale-blue">
+    <section className="padding ">
       <SpecialOffer />
     </section>
-    <section className="padding">
+    <section className="padding bg-pale-blue">
       <CustomerReview />
     </section>
     <section className="w-full py-16 padding-x sm:py-32">

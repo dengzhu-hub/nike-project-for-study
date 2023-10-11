@@ -1,7 +1,7 @@
 import {  puma } from "../assets/images";
 import { hamburger } from "../assets/icons";
 import { navLinks } from "../constants";
-const nav = () => {
+const Nav = () => {
   return (
     <header className="py-8 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
@@ -24,4 +24,4 @@ const nav = () => {
   );
 };
 
-export default nav;
+export default Nav;

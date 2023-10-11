@@ -6,6 +6,7 @@ import Footer from "./footer";
 import SpecialOffer from "./specialOffer";
 import Subscribe from "./Subscribe";
 import Nav from "../component/nav";
+import Service from "./service";
 
 export {
   CustomerReview,
@@ -15,5 +16,6 @@ export {
   Footer,
   SpecialOffer,
   Subscribe,
+  Service,
   Nav,
 };
